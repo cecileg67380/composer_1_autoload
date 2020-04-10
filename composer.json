@@ -1,0 +1,15 @@
+{
+    "name": "cecile/quete_composer",
+    "description": "projet quete composer 1 autoload",
+    "authors": [
+        {
+            "name": "cecileg67380",
+            "email": "gardececile@gmail.com"
+        }
+    ],
+    "require": {},
+
+    "autoload": {
+        "psr-4": {"App\\": "src/"}
+    }
+}
