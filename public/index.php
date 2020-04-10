@@ -1,2 +1,4 @@
 <?php
-require_once("../vendor/autoload.php");
+require '../vendor/autoload.php';
+$hello=new HelloWorld\SayHello();
+echo $hello->world();
